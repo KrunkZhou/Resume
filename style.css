@@ -1,0 +1,267 @@
+/* latin */
+@font-face {
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Acme Regular'), local('Acme-Regular'), url(https://fonts.gstatic.com/s/acme/v9/RrQfboBx-C5_XxrBbk_m3Lg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+@page {
+    size: A4;
+}
+
+body{
+    font-family: 'Roboto' ;
+}
+
+.container {
+    color: #2b2e3b;
+}
+
+.container a {
+    color: #566d8a;
+    text-decoration: none;
+}
+
+.container p {
+    margin-top: .6em;
+    margin-bottom: .6em;
+}
+
+.container .header {
+    border-bottom: 3px solid #333945;
+}
+
+.container .header .header-inner {
+    position: relative;
+    border-bottom: 3px solid #758AA2;
+}
+
+.container .header .header-inner h1 {
+    margin-left: 1em;
+    margin-top: .5em;
+    margin-bottom: 0.5em;
+    font-size: 2.2em;
+    letter-spacing: 0.02em;
+    font-weight: normal;
+    font-family: 'Acme';
+}
+
+.container .header .header-inner .target {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .4em .8em .6em;
+    border-left: 3px solid #333945;
+}
+
+.container .content {
+    margin-left: 2em;
+    margin-right: 2em;
+    border-left: 2px solid #333945;
+    overflow: auto;
+}
+
+.container .content h2 {
+    font-size: 1em;
+}
+
+.container .content h2 span {
+    display: inline-block;
+    padding: 0.2em 1em;
+    line-height: 1;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #2C3335;
+    vertical-align: middle;
+    color-adjust: exact; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+
+.container .content h2:after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    border-width: .7em 0 .7em .7em;
+    border-style: solid;
+    vertical-align: middle;
+    border-left-color: #2C3335;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.container .content > section {
+    margin-left: 1em;
+    font-size: 0.9em;
+}
+
+.container .content .basic {
+    position: relative;
+}
+
+.container .content .basic div {
+    display: inline-block;
+    width: 40%;
+}
+
+.container .content .basic div span.key {
+    display: inline-block;
+    width: 4em;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    text-align-last: justify;
+}
+
+.container .content .basic div span.value:before {
+    content: ': ';
+}
+
+.container .content .basic div span.value .phone-number:before {
+    content: '-';
+}
+
+.container .content .basic img {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 15%;
+    border: 1px solid;
+}
+
+.container .content section ol,
+.container .content section ul {
+    padding-left: 1.3em;
+}
+
+.container h3{
+    padding: 0px;
+    margin: 5px;
+}
+
+
+
+/** https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css **/
+
+@page { margin: 0 }
+body { margin: 0 }
+.sheet {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+}
+
+/** Paper sizes **/
+body.A3           .sheet { width: 297mm; height: 419mm }
+body.A3.landscape .sheet { width: 420mm; height: 296mm }
+body.A4           .sheet { width: 210mm; height: 296mm }
+body.A4.landscape .sheet { width: 297mm; height: 209mm }
+body.A5           .sheet { width: 148mm; height: 209mm }
+body.A5.landscape .sheet { width: 210mm; height: 147mm }
+
+/** Padding area **/
+.sheet.padding-10mm { padding: 10mm }
+.sheet.padding-15mm { padding: 15mm }
+.sheet.padding-20mm { padding: 20mm }
+.sheet.padding-25mm { padding: 25mm }
+
+/** For screen preview **/
+@media screen {
+  body { background: #e0e0e0 }
+  .sheet {
+    background: white;
+    box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+    margin: 5mm;
+  }
+}
+
+/** Fix for Chrome issue #273306 **/
+@media print {
+           body.A3.landscape { width: 420mm }
+  body.A3, body.A4.landscape { width: 297mm }
+  body.A4, body.A5.landscape { width: 210mm }
+  body.A5                    { width: 148mm }
+}
+
+
+
+
+
+.notice{
+    margin: 20px;
+    text-align: center;
+    color: rgb(150,150,150);
+}
+
+@media print {
+    .notice{
+        display: none;
+    }
+}
